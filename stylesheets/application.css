@@ -17,7 +17,7 @@
 #main-menu li a { color:#000 !important; }
 #main-menu li a:hover { background:#fff !important;color:#000; }
 #main-menu li a.selected, #main-menu li a.selected:hover {background:#e4332d; color:#000 !important;}
-#main-menu li a.new-object { background-color: #383838; }
+#main-menu li a.new-object { background-color: #fff; }
 #main-menu .menu-children li a {
     color: #94221e !important;
     background-color: #fff;
