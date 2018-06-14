@@ -23,7 +23,7 @@
     background-color: #fff;
 }
 
-#main-menu .menu-children li a:hover { color: #000 !important; }
+#main-menu .menu-children li a:hover { color: #e31c23 !important; }
 
 #header h1 {margin:0; padding:0; font-size: 28px; margin-bottom: 5px; }
 #header h1 .breadcrumbs { font-size: .4em; }
