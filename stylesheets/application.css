@@ -98,11 +98,8 @@ tr.priority-3.even {background-color: #dff;}
 tr.priority-3.odd  {background-color: #e7ffff;}
 tr.priority-10.even {background-color: #dde7ff;}
 tr.priority-10.odd  {background-color: #e7eeff;}
-tr.closed.even {background-color: #f7f7f7;color: #888;}
-tr.closed.odd  {background-color: #f0f0f0;color: #888;}
+tr.closed.even {background-color: #7CFC00;color: #888;}
 
-tr.closed.even {background-color: #f7f7f7;color: #888;}
-tr.closed.odd  {background-color: #f0f0f0;color: #888;}
 table.list {font-size: 90%;}
 
 table.list td.estimated_hours {text-align: right}
