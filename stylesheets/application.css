@@ -17,6 +17,13 @@
 #main-menu li a { color:#fff !important; }
 #main-menu li a:hover { background:#e26662 !important; }
 #main-menu li a.selected, #main-menu li a.selected:hover {background:#e4332d; color:#fff !important;}
+#main-menu li a.new-object { background-color: #383838; }
+#main-menu .menu-children li a {
+    color: #94221e !important;
+    background-color: #fff;
+}
+
+#main-menu .menu-children li a:hover { color: #fff !important; }
 
 #header h1 {margin:0; padding:0; font-size: 28px; margin-bottom: 5px; }
 #header h1 .breadcrumbs { font-size: .4em; }
