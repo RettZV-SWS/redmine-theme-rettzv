@@ -222,3 +222,20 @@ tr.status-2
 
 tr.status-3 
 { background-color: #98FB98 !important; }
+#content {
+    width: 75%;
+    background-color: #EBEBEB;
+    margin: 0px;
+    border-right: 1px solid #ddd;
+    padding: 6px 10px 10px 10px;
+    z-index: 10;
+}
+#footer {
+    clear: both;
+    border-top: 1px solid #bbb;
+    font-size: 0.9em;
+    color: #aaa;
+    padding: 5px;
+    text-align: center;
+    background: #EBEBEB;
+}
