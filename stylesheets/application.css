@@ -1,6 +1,6 @@
 @import url(../../../stylesheets/application.css);
 #main {background: #f6f6f6; }
-#top-menu {background: #383838; color: #fff;}
+#top-menu {background: #31c23; color: #000;}
 #header {
 	min-height: 46px !important; 
 	background-color:#e31c23 !important; 
