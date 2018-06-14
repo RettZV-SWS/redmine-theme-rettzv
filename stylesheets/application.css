@@ -204,3 +204,11 @@ div.journal ul.details, span.pagination {
     word-wrap: break-word;
     border-radius: 3px;
 }
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    color: #e31c23;
+    margin: 0;
+    padding: 0;
+    min-width: 900px;
+}
