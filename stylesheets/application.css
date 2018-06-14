@@ -14,7 +14,7 @@
 #header a {color:#d0cccb !important; }
 #main-menu {left: 80px; }
 #main-menu li { background-color:none;  }
-#main-menu li a { color:#fff !important; }
+#main-menu li a { color:#000 !important; }
 #main-menu li a:hover { background:#fff !important;color:#000; }
 #main-menu li a.selected, #main-menu li a.selected:hover {background:#e4332d; color:#000 !important;}
 #main-menu li a.new-object { background-color: #383838; }
