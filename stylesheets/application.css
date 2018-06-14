@@ -1,0 +1,189 @@
+@import url(../../../stylesheets/application.css);
+#main {background: #f6f6f6; }
+#top-menu {background: #383838; color: #fff;}
+#header {
+	min-height: 46px !important; 
+	background-color:#94221e !important; 
+	color:#fff !important; 
+	border-bottom:1px solid #BBB !important;  
+	background-image: url(../images/logo1.png); 
+	background-size: contain;
+	background-repeat:no-repeat; 
+	padding-left:80px
+}
+#header a {color:#d0cccb !important; }
+#main-menu {left: 80px; }
+#main-menu li { background-color:#383838;  }
+#main-menu li a { color:#fff !important; }
+#main-menu li a:hover { background:#e26662 !important; }
+#main-menu li a.selected, #main-menu li a.selected:hover {background:#e4332d; color:#fff !important;}
+
+#header h1 {margin:0; padding:0; font-size: 28px; margin-bottom: 5px; }
+#header h1 .breadcrumbs { font-size: .4em; }
+
+.flyout-menu {
+	background-color: #f6f6f6 !important;
+	color:#383838 !important; 
+	border-left: 1px solid #BBB !important;
+}
+
+.flyout-menu ul li:first-child a {
+    border-top: none !important;
+}
+
+.flyout-menu a {
+	color:#9E9998 !important;
+	border-top: 1px solid #ddd !important;
+}
+
+
+.flyout-menu h3 {
+    border-top: none !important;
+    border-bottom: none !important;
+    background-color: #9E9998 !important;
+}
+
+.flyout-menu__avatar {
+	border-top: none !important;
+}
+
+
+
+a, a:link, a:visited{ color: #94221e; text-decoration: none; }
+div.journal ul.details a { color: #94221e; }
+
+div.issue {  background-color: #94221e17;
+  border: 1px solid #94221e;
+  padding: 7px 8px 0px 8px;
+  margin: 10px 0px 10px 0px; }
+
+div.issue > hr {  background: #94221e; }
+
+th {text-align: left;}
+th.buttons {text-align: right;}
+tr.issue {text-align: left; }
+tr.issue td {text-align: left;  padding-left: 4px}
+
+tr.issue {border-top: 1px solid #DDD;}
+tr.priority-4.even {background-color: #f6f6f6;}
+tr.priority-4.odd  {background-color: #fbfbfb;}
+tr.priority-5.even {background-color: #f6f6f6;}
+tr.priority-5.odd  {background-color: #fbfbfb;}
+tr.priority-7.even {background-color: #fed;}
+tr.priority-7.odd  {background-color: #fdc;}
+tr.priority-2.even {background-color: #f6f6f6;}
+tr.priority-2.odd  {background-color: #fbfbfb;}
+tr.priority-3.even {background-color: #dde7ff;}
+tr.priority-3.odd  {background-color: #e7eeff;}
+tr.priority-10.even {background-color: #f6f6f6;}
+tr.priority-10.odd  {background-color: #fbfbfb;}
+tr.priority-1.even {background-color: #f6f6f6;}
+tr.priority-1.odd  {background-color: #fbfbfb;}
+
+tr.issue {border-top: 1px solid #DDD;}
+tr.priority-7.even {background-color: #fed;}
+tr.priority-7.odd  {background-color: #fdc;}
+tr.priority-5.even {background-color: #ffd;}
+tr.priority-5.odd  {background-color: #ffb;}
+tr.priority-4.even {background-color: #f6f6f6;}
+tr.priority-4.odd  {background-color: #fbfbfb;}
+tr.priority-3.even {background-color: #dff;}
+tr.priority-3.odd  {background-color: #e7ffff;}
+tr.priority-10.even {background-color: #dde7ff;}
+tr.priority-10.odd  {background-color: #e7eeff;}
+tr.closed.even {background-color: #f7f7f7;color: #888;}
+tr.closed.odd  {background-color: #f0f0f0;color: #888;}
+
+tr.closed.even {background-color: #f7f7f7;color: #888;}
+tr.closed.odd  {background-color: #f0f0f0;color: #888;}
+table.list {font-size: 90%;}
+
+table.list td.estimated_hours {text-align: right}
+table.list td.remaining_hours {text-align: right}
+table.list td.spent_hours {text-align: right}
+
+div.news p>a {font-weight: bold;}
+div.news p>a:first-child {font-weight: normal;}
+div.splitcontentright div.news p>a {font-weight: bold;}
+div.splitcontentright div.news p:last-child>a {font-weight: normal;}
+
+ul.projects div.root {}
+ul.projects ul.projects { 
+	padding-left: 5px; 
+	margin-left: 9px;
+    border-left: 3px solid #e0e0e0;
+    padding-left: 1em;
+}
+ul.projects ul.projects ul.projects { font-size: 90% }
+ul.projects li.child {margin-top: 4px;}
+ul.projects div.description {font-size: 10px; padding-left: 10px; padding-top: 2px; width: 50%}
+ul.projects div.description p:last-child { margin-bottom: 0px;}
+.my-project {background-position: right; padding: 0px; padding-right: 18px; }
+
+table.list td { vertical-align: middle; }
+div.backlog div.header {color: #fff}
+.ui-icon { background-image: none; }
+#backlogs_container .stories .story .id .t * { background:#e4332d; }
+
+table.cal th:nth-child(7) { display:none }
+table.cal th:nth-child(8) { display:none }
+table.cal td:nth-child(7) { display:none }
+table.cal td:nth-child(8) { display:none }
+table.cal th { width: 20%;}
+table.cal td { width: 20%;}
+table.cal th.week-number { width: 50px; }
+table.cal td.week-number { width: 50px; }
+
+.priority_id.priority-4 {display: none;}
+.priority_id { right: auto; }
+
+div#history div.journal:nth-child(even) {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  padding: 7px 8px 0px 8px;
+  margin: 10px 0px 10px 0px;
+}
+div#history div.journal:nth-child(odd) {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  padding: 7px 8px 0px 8px;
+  margin: 10px 0px 10px 0px;
+}
+
+div.journal ul.details, span.pagination {
+    color: #333;
+}
+
+.pagination ul.pages li.current {
+    color: white;
+    background-color: #e4332d;
+    border-color: #e4332d;
+}
+
+#projects-index ul.projects .description {
+	display: none;
+}
+
+#projects-index ul.projects li.child {
+	margin-top: 0.2em;
+}
+
+.members.box p {
+    -webkit-margin-before: 0.1em;
+    -webkit-margin-after: 0.1em;	
+}
+
+@media (max-width: 899px)
+{
+	#header {
+		background-position:0px -8px !important;
+	}
+
+	#project_quick_jump_box, #quick-search {
+		display:none !important;
+	}
+
+	#time-tracker-menu {
+		height: 40px;
+	}
+}
