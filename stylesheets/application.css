@@ -212,3 +212,8 @@ body {
     padding: 0;
     min-width: 900px;
 }
+tr.closed.odd {
+    background-color: #7CFC00;
+    color: #000;
+}
+
