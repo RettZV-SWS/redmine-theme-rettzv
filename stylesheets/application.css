@@ -216,4 +216,5 @@ tr.closed.odd {
     background-color: #7CFC00;
     color: #000;
 }
-
+tr.status-4 
+{ background-color: orange !important; }
