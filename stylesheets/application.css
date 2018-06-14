@@ -13,9 +13,9 @@
 }
 #header a {color:#d0cccb !important; }
 #main-menu {left: 80px; }
-#main-menu li { background-color:#383838;  }
+#main-menu li { background-color:none;  }
 #main-menu li a { color:#fff !important; }
-#main-menu li a:hover { background:#e26662 !important; }
+#main-menu li a:hover { background:#fff !important;text-color:#000; }
 #main-menu li a.selected, #main-menu li a.selected:hover {background:#e4332d; color:#fff !important;}
 #main-menu li a.new-object { background-color: #383838; }
 #main-menu .menu-children li a {
