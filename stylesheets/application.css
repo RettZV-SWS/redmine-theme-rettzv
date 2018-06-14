@@ -219,3 +219,6 @@ tr.status-1
 { background-color: red !important;color: #FFF; }
 tr.status-2 
 { background-color: yellow !important; }
+
+tr.status-3 
+{ background-color: #90EE90 !important; }
