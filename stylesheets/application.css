@@ -1,5 +1,5 @@
 @import url(../../../stylesheets/application.css);
-#main {background: #f6f6f6; }
+#main {background: #EBEBEB; }
 #top-menu {background: #e31c23; color: #000;border-bottom:1px solid #fff;}
 #header {
 	min-height: 46px !important; 
@@ -214,7 +214,7 @@ tr.closed.odd {
     color: #000;
 }
 tr.status-4 
-{ background-color: orange !important; }
+{ background-color: #87CEFA !important; }
 tr.status-1 
 { background-color: red !important;color: #FFF; }
 tr.status-2 
